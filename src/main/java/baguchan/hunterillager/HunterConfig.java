@@ -37,8 +37,8 @@ public class HunterConfig {
 					.comment("Add Item for What Hunter Illager can eatable")
 					.define("HunterIllager's Food Whitelist"
 							, Lists.newArrayList("minecraft:apple"
-									, "minecraft:cooked_beef", "minecraft:cooked_chicken", "minectaft:cooked_mutton", "minecraft:cooked_porkchop"
-									, "minecraft:beef", "minecraft:chicken", "minectaft:mutton", "minecraft:porkchop")
+									, "minecraft:cooked_beef", "minecraft:cooked_chicken", "minecraft:cooked_mutton", "minecraft:cooked_porkchop"
+									, "minecraft:beef", "minecraft:chicken", "minecraft:mutton", "minecraft:porkchop")
 							, validator);
 		}
 	}
